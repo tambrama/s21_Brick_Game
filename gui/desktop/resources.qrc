@@ -1,0 +1,9 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <!-- Шрифты -->
+        <file>fonts/PressStart2P-Regular.ttf</file>
+        <file>fonts/VT323-Regular.ttf</file>
+        <file>fonts/Orbitron-Regular.ttf</file>
+    </qresource>
+</RCC>

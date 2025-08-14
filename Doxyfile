@@ -1,0 +1,94 @@
+# Базовые настройки проекта
+PROJECT_NAME           = "Snake Game"
+PROJECT_BRIEF          = "Реализация игры Змейка с графическим интерфейсом Qt"
+PROJECT_NUMBER         = 1.0
+OUTPUT_DIRECTORY       = docs/
+
+# Кодировки
+INPUT_ENCODING         = UTF-8
+DOXYFILE_ENCODING      = UTF-8
+
+# Пути к исходникам
+INPUT                  = . \
+                         brick_game/snake/ \
+                         gui/qt/
+                         
+RECURSIVE              = YES
+STRIP_FROM_PATH        = brick_game/ gui/qt/
+EXCLUDE_PATTERNS       = */tmp/* */build/* */test/* */cmake-build-*/*
+
+# Извлечение документации
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+
+# Настройки для C/C++
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_CPP    = YES
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+BUILTIN_STL_SUPPORT    = YES
+CPP_CLI_SUPPORT        = YES
+
+# HTML документация
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_EXTRA_STYLESHEET  = 
+HTML_EXTRA_FILES       = 
+HTML_COLORSTYLE_HUE    = 220
+
+# LaTeX документация
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+LATEX_CMD_NAME         = latex
+MAKEINDEX_CMD_NAME     = makeindex
+COMPACT_LATEX          = NO
+PAPER_TYPE             = a4
+EXTRA_PACKAGES         = 
+LATEX_HEADER           = 
+LATEX_FOOTER           = 
+PDF_HYPERLINKS         = YES
+USE_PDFLATEX           = YES
+LATEX_BATCHMODE        = NO
+LATEX_HIDE_INDICES     = NO
+LATEX_SOURCE_CODE      = YES
+LATEX_BIB_STYLE        = plain
+
+# Графики зависимостей
+HAVE_DOT               = YES
+DOT_NUM_THREADS        = 4
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = YES
+
+# Поиск и индексация
+ALPHABETICAL_INDEX     = YES
+GENERATE_TREEVIEW      = YES
+FULL_PATH_NAMES        = YES
+
+# Прочие настройки
+QUIET                  = NO
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_FORMAT            = "$file:$line: $text"
+WARN_LOGFILE           = doxygen_warnings.log
+
+# Максимально подробная документация
+SOURCE_BROWSER         = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION    = YES
+VERBATIM_HEADERS       = NO
+
+# Язык и региональные настройки
+OUTPUT_LANGUAGE        = Russian
+
+# Фильтры для файлов
+FILTER_PATTERNS        = 
+FILTER_SOURCE_FILES    = NO
+
+# Информация об авторских правах
+GENERATE_LEGEND        = YES
