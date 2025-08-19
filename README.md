@@ -3,8 +3,7 @@
 
 Консольная и графическая реализация классических аркадных игр Змейка и Тетрис с использованием ncurses и Qt.
 
-<img src="sn_qt.gif" alt="Змейка qt" style="width: 250px;" />
-<img src="te_qt.gif" alt="Тетрис qt" style="width: 253px;" />
+<img src="sn_qt.gif" alt="Змейка qt" style="width: 300px;"/> <img src="te_qt.gif" alt="Тетрис qt" style="width: 303px;" />
 <img src="sn_nc.gif" alt="Змейка ncurses" style="width: 606px;" />
 <img src="te_nc.gif" alt="Тетрис ncurses" style="width: 606px;" />
 
